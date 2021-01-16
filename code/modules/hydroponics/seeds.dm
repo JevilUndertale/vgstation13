@@ -203,6 +203,11 @@
 	seed_type = "rice"
 	vending_cat = "cereals"
 
+/obj/item/seeds/whiterice
+    name = "packet of whiterice seeds"
+	seed_type = "whiterice"
+	vending_cat = "cereals"
+	
 /obj/item/seeds/carrotseed
 	name = "packet of carrot seeds"
 	seed_type = "carrot"
@@ -1285,6 +1290,7 @@
 	display_name = "rice stalks"
 	plant_dmi = 'icons/obj/hydroponics/rice.dmi'
 	products = list(/obj/item/weapon/reagent_containers/food/snacks/grown/ricestalk)
+	mutants = list("whiterice")
 	chems = list(NUTRIMENT = list(1,25))
 
 	lifespan = 25
@@ -1295,6 +1301,15 @@
 	growth_stages = 4
 	water_consumption = 6
 	nutrient_consumption = 0.15
+	
+/datum/seed/rice/white
+    name = "whiterice"
+	seed_name = "white rice"
+	display_name = "white rice"
+	plant_dmi = 'icons/obj/hydroponics/whiterice.dmi'
+	products = list(/obj/item/weapon/reagent_containers/food/snack/grown/whiterice)
+	mutants = null
+	chems = list(NUTRIMENT = (1,10), SAKE = list(1,5))
 
 /datum/seed/carrots
 	name = "carrot"

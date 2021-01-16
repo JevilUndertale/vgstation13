@@ -679,6 +679,14 @@ var/list/special_fruits = list()
 	filling_color = "#FFF8DB"
 	plantname = "rice"
 
+obj/item/weapon/reagent_containers/food/snacks/grown/whiterice
+    name = "white-rice"
+	desc = "Smells like an oriental beverage."
+	potency = 15
+	gender = PLURAL
+	filling_color = "#FFFFFF"
+	plantname = "whiterice"
+
 /obj/item/weapon/reagent_containers/food/snacks/grown/kudzupod
 	name = "kudzu pod"
 	desc = "<I>Pueraria Virallis</I>: An invasive species with vines that rapidly creep and wrap around whatever they contact."
