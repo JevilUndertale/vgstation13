@@ -1285,7 +1285,7 @@
 	display_name = "rice stalks"
 	plant_dmi = 'icons/obj/hydroponics/rice.dmi'
 	products = list(/obj/item/weapon/reagent_containers/food/snacks/grown/ricestalk)
-	chems = list(NUTRIMENT = list(1,25))
+	chems = list(NUTRIMENT = list(1,25), SAKE = list(3,5))
 
 	lifespan = 25
 	maturation = 6
